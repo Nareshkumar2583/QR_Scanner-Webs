@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Add Contact</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>📇 Add New Contact</h1>
+    <form id="contactForm">
+      <div class="input-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter full name" required />
+      </div>
+
+      <div class="input-group">
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone" placeholder="Enter phone number" required />
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter email" required />
+      </div>
+
+      <button type="submit" class="btn">Save Contact</button>
+    </form>
+
+    <div class="qr-section" id="qrSection" style="display:none;">
+      <h2>QR Code Generated</h2>
+      <img id="qrImage" alt="QR Code" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
