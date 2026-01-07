@@ -1,4 +1,5 @@
 📱 QR Code Generator – Spring Boot
+
 This project is a Spring Boot–based QR Code Generator that dynamically creates QR codes from text or URLs.It uses the ZXing library to generate high-quality QR codes in PNG format.
 The application exposes a RESTful API for easy integration with other systems.Generated QR codes are automatically stored in the static resources directory and accessed via URL.
 Built with Java and Maven, the project is lightweight, fast, and easily extensible.
